@@ -1,0 +1,13 @@
+services:
+  sports-widget:
+    build: .
+    container_name: sports-widget
+    restart: unless-stopped
+    ports:
+      - "6597:6597"
+    environment:
+      - TZ=America/Denver
+      # - TEAMS=nuggets,broncos
+      # - BG_COLOR=#1a1a2e
+      # - REFRESH_HOURS=6
+      # - GAME_COUNT=5

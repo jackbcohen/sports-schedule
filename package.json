@@ -1,0 +1,12 @@
+{
+  "name": "sports-widget",
+  "version": "1.0.0",
+  "description": "Sports schedule widget for Homarr dashboards",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
